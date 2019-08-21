@@ -103,7 +103,15 @@ mtl.ncc.readUCGConfig({
 
 <a name="Ti9jD" class="anchor"></a>
 ### 4.使用浏览器进行调试
-由于浏览器无法实现例如调用相机、扫描二维码这类调用原生能力的接口。为方便调试，mtl 支持在 Web 端调用这类接口时返回模拟数据，用户只需在 mtl.(min.).js 同级目录下放置 **mtl.debug.js** 文件，然后就可以通过修改 **mtl.debug.js** 配置自己想要的模拟数据，**mtl.debug.js** 内容如下：
+
+由于浏览器无法实现例如相机、扫描二维码这类调用原生能力的接口，为方便调试，mtl 支持通过文件配置接口返回模拟数据。
+
+若要使用该功能，请执行如下步骤：
+
+1. 下载支持调试功能的 mtl.js([下载](http://mobile.yyuap.com/new/mtl/download/mtljs/mtl.debug.zip)) 覆盖工程中原有的 mtl.js。
+2. 在 mtl.js 同级目录下新建一个 **mtl.debug.js** 文件，修改 **mtl.debug.js** 配置自己想要的模拟数据。
+
+**mtl.debug.js** 内容如下：
 ```javascript
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["mtl.debug"], {
 
