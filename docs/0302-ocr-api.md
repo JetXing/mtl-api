@@ -1,7 +1,12 @@
 # OCR 识别
 
 > OCR 接口调用阿里云的 API（收费），需要用户自己到阿里云平台上申请 appCode。
-> 待添加：申请 appCode 相关教程。
+
+| API | appCode申请地址 |
+| :--- | :--- |
+| 发票识别 | [地址](https://market.aliyun.com/products/57124001/cmapi027758.html?spm=5176.2020520132.101.13.77ac7218bsVS3W#sku=yuncode2175800000) | 
+| 身份证识别 | [地址](https://market.aliyun.com/products/57124001/cmapi010401.html?spm=5176.2020520132.101.7.77ac7218bsVS3W#sku=yuncode440100000) |
+| 银行卡识别 | [地址](https://market.aliyun.com/products/57124001/cmapi016870.html?spm=5176.2020520132.101.1.77ac7218bsVS3W#sku=yuncode1087000000) |
 
 
 <a name="moFpH"></a>
