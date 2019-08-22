@@ -9,13 +9,13 @@ const components = require('../../static/components.json');
 const newComponent = require('../../static/new.json'); //有更新的组件
 const renderer = new marked.Renderer();
 
-renderer.heading = function (text, level) {
-  if (level > 1) {
-    return `<h${level} id="${text}">${text}</h${level}/>`
-  } else {
-    return `<h${level}>${text}</h${level}/>`
-  }
-}
+// renderer.heading = function (text, level) {
+//   if (level > 1) {
+//     return `<h${level} id="${text}">${text}</h${level}/>`
+//   } else {
+//     return `<h${level}>${text}</h${level}/>`
+//   }
+// }
 
 renderer.link = function (href, title, text) {
   var target = '';
