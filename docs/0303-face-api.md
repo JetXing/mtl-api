@@ -1,38 +1,5 @@
 # 人脸识别
 
-<a name="MTL_initFace" class="anchor"></a>
-### initFace
-初始化配置
-
-<br>
-
-**支持平台**
-
-| **微信** | **钉钉** | **友空间** | **原生** | **HTML5** |
-| :--- | :--- | :--- | :--- | :--- |
-| ✔︎ | ✔︎ | ✔︎ | ✔︎ | ✘ |
-
-
-**参数**
-
-| **字段** | **类型** | **必填** | **说明** |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
-
-
-**示例**
-```javascript
-mtl.initFace({
-  licenseIdIos:'',// iOS licenseID
-  licenseIdAndroid:'',// 安卓licenseID
-  baseUrl:'',//  路径
-  pubKey:'' // 公钥
-});
-```
-
----
-
-
 <a name="MTL_faceRegister" class="anchor"></a>
 ### faceRegister
 为指定用户创建人脸信息。
