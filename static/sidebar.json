@@ -306,5 +306,31 @@
         }
       }
     }
+  },
+  "VUI-小友": {
+    "version": "5.0.0",
+    "component": "0701-vui-api",
+    "menus": {
+      "dowload": "demo下载",
+      "initSpeech": "初始化",
+      "openSpeechPage": "打开小友界面",
+      "startSpeechSyn": "语音合成",
+      "startBatchSpeechSyn": "批量语音合成(安卓)",
+      "stopSpeechSyn": "停止语音合成",
+      "startSpeechRecog": "语音识别",
+      "stopSpeechRecog": "停止语音识别",
+      "releaseSpeech": "释放语音资源",
+      "cancelAITask": "取消AI流程"
+    }
+  },
+  "友盟分享": {
+    "version": "5.0.0",
+    "component": "0801-umeng-api",
+    "menus": {
+      "init": "初始化",
+      "doShare": "分享",
+      "openShare": "分享面板",
+      "附录": "附录"
+    }
   }
 }
