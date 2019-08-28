@@ -327,10 +327,10 @@
     "version": "5.0.0",
     "component": "0801-umeng-api",
     "menus": {
-      "init": "初始化",
+      "initShare": "初始化",
       "doShare": "分享",
       "openShare": "分享面板",
-      "附录": "附录"
+      "appendix": "附录"
     }
   }
 }

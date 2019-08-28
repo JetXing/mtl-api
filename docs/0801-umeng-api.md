@@ -2,7 +2,7 @@
 
 **暂时只支持 微信、朋友圈、钉钉**
 
-<a name="init" class="anchor"></a>
+<a name="initShare" class="anchor"></a>
 ### init
 初始化
 
@@ -139,7 +139,7 @@ mtl.UMShareAgent.openShare({
 })
 ```
 
-<a name="附录" class="anchor"></a>
+<a name="appendix" class="anchor"></a>
 ### 附录
 #### 平台 ID 对照表
 | **id** | **平台** |
