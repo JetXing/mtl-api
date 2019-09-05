@@ -8,10 +8,10 @@
 
 ```javascript
 mtl.coop.initialize({
-  server: "",                 // 长连接地址(必填)
-  restServer: "",             // 短连接地址(必填)
-  resourceUploadServer: "",   // 资源上传服务器地址(可选)
-  resourceDownloadServer: "", // 资源下载服务器地址(可选)
+  server: "",                 // 长连接地址(必填), 和服务器建立长链接通讯
+  restServer: "",             // 短连接地址(必填), 从服务器请求数据，给给服务器发送数据
+  resourceUploadServer: "",   // 资源上传服务器地址(可选), 资源上传至服务器
+  resourceDownloadServer: "", // 资源下载服务器地址(可选), 从服务器下载资源
   serverPort: 25225,          // 服务器端口(必填)
   serverSSLPort: 25223,       // SSL端口(必填)
   wssPort: 25227,             // websocket 端口(必填)
@@ -20,8 +20,9 @@ mtl.coop.initialize({
   appId: "",                  // 应用ID(必填)
   etpId: "",                  // 租户ID(必填)
   appSecret: "",              // 应用密钥(必填)
-});
+});   
 ```
+appId、etpId 、appSecret从 [IM官网](https://im.yyuap.com/)获取。
 
 <a name="MTL_coopLogin" class="anchor"></a>
 #### 2. 登录
