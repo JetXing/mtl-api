@@ -213,13 +213,6 @@
             "MTL_upesnChooseContacts": "chooseContacts"
           }
         },
-        "跨空间选择联系人": {
-          "version": "5.0.0",
-          "component": "0603-upesnchooseallcontacts-api",
-          "menus": {
-            "MTL_upesnChooseAllContacts": "chooseAllContacts"
-          }
-        },
         "选择内部群": {
           "version": "5.0.0",
           "component": "0604-upesnchooseinsidegroup-api",
@@ -241,39 +234,11 @@
             "MTL_upesnOpenChatByUserId": "openChatByUserId"
           }
         },
-        "新建日程": {
-          "version": "5.0.0",
-          "component": "0607-upesncreatenewschedule-api",
-          "menus": {
-            "MTL_upesnCreateNewSchedule": "createNewSchedule"
-          }
-        },
-        "查看日程列表": {
-          "version": "5.0.0",
-          "component": "0608-upesnviewschedulelist-api",
-          "menus": {
-            "MTL_upesnViewScheduleList": "viewScheduleList"
-          }
-        },
-        "打开日程详情": {
-          "version": "5.0.0",
-          "component": "0609-upesnviewscheduledetail-api",
-          "menus": {
-            "MTL_upesnViewScheduleDetail": "viewScheduleDetail"
-          }
-        },
         "打开小友": {
           "version": "5.0.0",
           "component": "0610-upesnopenxychatview-api",
           "menus": {
             "MTL_upesnOpenXYChatView": "openXYChatView"
-          }
-        },
-        "发送微邮": {
-          "version": "5.0.0",
-          "component": "0611-upesnsendminimail-api",
-          "menus": {
-            "MTL_upesnSendMiniMail": "sendMiniMail"
           }
         },
         "打开文库具体路径": {

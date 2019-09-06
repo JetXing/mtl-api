@@ -26,7 +26,7 @@
 mtl.vui.openXYChatView({
   xiaoyou_params: { //小友机器人必要参数，必传
     tenantid: "qa56zqg7", //租户id 申请机器人后获得
-    appcode: "nccloud", //应用id
+    appcode: "diwork", //应用id
     yhtuserid: "b9d3d30d-e110-41a1-99b9-f9ed8b4d771e" //友互通id
   },
   callback: function (data, callback) { //业务回调
