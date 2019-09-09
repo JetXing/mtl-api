@@ -14,7 +14,7 @@
   },
   "常用原生能力": {
     "version": "5.0.0",
-    "component": "gjtx",
+    "component": "origin-module",
     "children": {
       "": {
         "设备信息": {
@@ -100,7 +100,7 @@
   },
   "智能能力": {
     "version": "5.0.0",
-    "component": "gjtx",
+    "component": "intelligent-module",
     "children": {
       "": {
         "语音转文字": {
@@ -162,7 +162,7 @@
   },
   "UCG网关": {
     "version": "5.0.0",
-    "component": "gjtx",
+    "component": "ucg-module",
     "children": {
       "": {
         "读写配置": {
@@ -195,7 +195,7 @@
   },
   "企业业务接口": {
     "version": "5.0.0",
-    "component": "gjtx",
+    "component": "esn-module",
     "children": {
       "": {
         "查看人员信息": {
