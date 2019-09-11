@@ -22,7 +22,7 @@
 | :--- | :--- | :--- | :--- |
 | domain | string | 否 | 缺省时使用默认的域 |
 | key | string | 是 | 存储数据用的 key |
-| data | any |  | 存储的数据，支持 number、string、及能够通过 JSON.stringify 序列化的对象。 |
+| data | any | 是 | 存储的数据，支持 number、string、及能够通过 JSON.stringify 序列化的对象。 |
 
 
 **示例**
@@ -121,7 +121,7 @@ mtl.removeStorage({
 
 <a name="MTL_clearStorage" class="anchor"></a>
 ### clearStorage
-清除所有缓存
+清除某一域下所有缓存
 
 <br>
 

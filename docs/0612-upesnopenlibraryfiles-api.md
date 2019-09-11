@@ -1,5 +1,13 @@
 # 打开文库具体路径
 
+<br>
+
+**支持平台**
+
+| **微信** | **钉钉** | **友空间** | **原生** | **HTML5** |
+| :--- | :--- | :--- | :--- | :--- |
+| ✘ | ✘ | ✔︎ | ✘ | ✘ |
+
 <a name="MTL_upesnOpenLibraryFiles" class="anchor"></a>
 ### openLibraryFiles
 打开文库具体路径

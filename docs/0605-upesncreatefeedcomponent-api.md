@@ -1,5 +1,13 @@
 # 新建发言
 
+<br>
+
+**支持平台**
+
+| **微信** | **钉钉** | **友空间** | **原生** | **HTML5** |
+| :--- | :--- | :--- | :--- | :--- |
+| ✘ | ✘ | ✔︎ | ✘ | ✘ |
+
 <a name="MTL_upesnCreateFeedComponent"  class="anchor"></a>
 ### createFeedComponent
 新建发言，工作圈动态

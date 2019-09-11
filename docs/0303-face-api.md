@@ -21,20 +21,20 @@
 | tenantId | string | 是 | 租户ID |
 | groupId | string | 是 | 组ID |
 | userInfo | string | 是 | 用户信息 |
-| sysId | string | 是 | 租户下，区分业务系统（如：人脸签到，人脸认证） |
+| sysId | string | 是 | 租户下，区分业务系统（如：人脸签到，人脸认证，根据业务自定义） |
 
 
 **示例**
 ```javascript
 mtl.faceRegister({
-  userId: "",
-  tenantId: "",
-  groupId: "",
-  userInfo: "",
-  sysId: "",
+  userId: "", // 友户通ID
+  tenantId: "", // 租户ID
+  groupId: "", // 组ID
+  userInfo: "", //用户信息
+  sysId: "", //租户下，区分业务系统（如：人脸签到，人脸认证,根据业务自定义）
   success: function(res) {
-    var status = res.status;
-    var log_id = res.log_id;
+    var status = res.status; //返回的状态值，1成功，其他为失败
+    var log_id = res.log_id; //返回的本次请求日志id
   },
   fail: function(err) {
     var message = err.message; // 错误信息
@@ -67,7 +67,6 @@ mtl.faceRegister({
 | groupId | string | 是 | 组ID |
 | userInfo | string | 是 | 用户信息 |
 | sysId | string | 是 | 租户下，区分业务系统（如：人脸签到，人脸认证） |
-| userId | string | 是 | 友户通ID  |
 
 
 **示例**
@@ -77,10 +76,10 @@ mtl.faceVerify({
   tenantId: "", // 租户ID
   groupId: "", // 组ID
   userInfo: "", //用户信息
-  sysId: "", //租户下，区分业务系统（如：人脸签到，人脸认证）
+  sysId: "", //租户下，区分业务系统（如：人脸签到，人脸认证,根据业务自定义）
   success: function(res) {
-    var status = res.status; //
-    var log_id = res.log_id; //
+    var status = res.status; //返回的状态值，1成功，其他为失败
+    var log_id = res.log_id; //返回的本次请求日志id
   },
   fail: function(err) {
     var message = err.message; // 错误信息

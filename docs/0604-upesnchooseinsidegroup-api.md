@@ -1,5 +1,13 @@
 # 选择内部群
 
+<br>
+
+**支持平台**
+
+| **微信** | **钉钉** | **友空间** | **原生** | **HTML5** |
+| :--- | :--- | :--- | :--- | :--- |
+| ✘ | ✘ | ✔︎ | ✘ | ✘ |
+
 <a name="MTL_upesnChooseInsideGroup"  class="anchor"></a>
 ### chooseInsideGroup
 选择内部群，返回内部群信息

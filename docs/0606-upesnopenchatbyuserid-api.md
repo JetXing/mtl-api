@@ -1,5 +1,13 @@
 # 发起单聊会话
 
+<br>
+
+**支持平台**
+
+| **微信** | **钉钉** | **友空间** | **原生** | **HTML5** |
+| :--- | :--- | :--- | :--- | :--- |
+| ✘ | ✘ | ✔︎ | ✘ | ✘ |
+
 <a name="MTL_upesnOpenChatByUserId" class="anchor"></a>
 ### openChatByUserId
 直接发起和特定人员的单聊会话

@@ -1,5 +1,13 @@
 # 打开小友
 
+<br>
+
+**支持平台**
+
+| **微信** | **钉钉** | **友空间** | **原生** | **HTML5** |
+| :--- | :--- | :--- | :--- | :--- |
+| ✘ | ✘ | ✔︎ | ✘ | ✘ |
+
 <a name="MTL_upesnOpenXYChatView" class="anchor"></a>
 ### openXYChatView
 打开小友聊天页面

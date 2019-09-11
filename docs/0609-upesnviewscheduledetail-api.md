@@ -1,5 +1,13 @@
 # 打开日程详情
 
+<br>
+
+**支持平台**
+
+| **微信** | **钉钉** | **友空间** | **原生** | **HTML5** |
+| :--- | :--- | :--- | :--- | :--- |
+| ✘ | ✘ | ✔︎ | ✘ | ✘ |
+
 <a name="MTL_upesnViewScheduleDetail" class="anchor"></a>
 ### viewScheduleDetail
 提供一个日程详情页面，根据传入的日程id以及用户id，展示出指定日程的详细信息

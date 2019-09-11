@@ -127,7 +127,6 @@
           "version": "5.0.0",
           "component": "0303-face-api",
           "menus": {
-            "MTL_initFace": "initFace",
             "MTL_faceRegister": "faceRegister",
             "MTL_faceVerify": "faceVerify"
           }

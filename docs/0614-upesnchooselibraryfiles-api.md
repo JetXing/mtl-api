@@ -1,5 +1,13 @@
 # 选择文库文件
 
+<br>
+
+**支持平台**
+
+| **微信** | **钉钉** | **友空间** | **原生** | **HTML5** |
+| :--- | :--- | :--- | :--- | :--- |
+| ✘ | ✘ | ✔︎ | ✘ | ✘ |
+
 <a name="MTL_upesnChooseLibraryFiles" class="anchor"></a>
 ### chooseLibraryFiles
 从文库列表中选择文库文件，返回文件基础信息<br />注：文件下载URL和预览URL要通过接口单独获取。预览URL有code失效值。下载URL中添加了密钥。

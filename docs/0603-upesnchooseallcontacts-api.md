@@ -1,5 +1,13 @@
 # 跨空间选择联系人
 
+<br>
+
+**支持平台**
+
+| **微信** | **钉钉** | **友空间** | **原生** | **HTML5** |
+| :--- | :--- | :--- | :--- | :--- |
+| ✘ | ✘ | ✔︎ | ✘ | ✘ |
+
 <a name="MTL_upesnChooseAllContacts" class="anchor"></a>
 ### chooseAllContacts
 跨空间选择联系人，返回联系人基础信息
