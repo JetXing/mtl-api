@@ -2,7 +2,7 @@
 
 <a name="dowload" class="anchor"></a>
 ### demo下载
-1. [Android](http://mobile.yyuap.com/mtl/download/faceRecognition/Android.zip)
+1. [Android](http://mobile.yyuap.com/mtl/download/xiaoyou/Android.zip)
 1. [iOS](http://mobile.yyuap.com/mtl/download/xiaoyou/iOS.zip)
 
 <a name="initSpeech" class="anchor"></a>
