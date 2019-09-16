@@ -13,7 +13,7 @@
 > - 去掉 url 参数，使用 writeConfig 值
 
 
-> 请先阅读 [MTL 多端登录协议]() 文档
+> 请先阅读 [MTL 多端登录协议](https://www.yuque.com/docs/share/6563acfe-a529-4263-a296-5f4e54bb8cc1) 文档
 
 <a name="MTL_ucgLogin" class="anchor"></a>
 ### login
