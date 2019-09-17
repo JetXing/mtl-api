@@ -26,7 +26,6 @@
 **示例**
 ```javascript
 mtl.scanQRCode({
-  scanType: ["qrCode", "barCode"],
   needResult: 1,
   success: function(res) {
     var result = res.resultStr;
