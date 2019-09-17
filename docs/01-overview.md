@@ -111,7 +111,7 @@ mtl.ncc.readUCGConfig({
 若要使用该功能，请执行如下步骤：
 
 1. 下载支持调试功能的 mtl.js([下载](http://mobile.yyuap.com/mtl/download/mtljs/mtl.debug.zip)) 覆盖工程中原有的 mtl.js。
-2. 在 mtl.js 同级目录下新建一个 **mtl.debug.js** 文件，修改 **mtl.debug.js** 配置自己想要的模拟数据。
+2. 在 mtl.js 同级目录下新建一个 **mtl.debug.js** 文件(若已存在则不需要重新创建)，修改 **mtl.debug.js** 配置自己想要的模拟数据。
 
 **mtl.debug.js** 内容如下：
 ```javascript
