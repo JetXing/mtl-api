@@ -23,12 +23,12 @@
 | latitude | double | 否 | 纬度 |
 | longitude | double | 否 | 经度 |
 | tenantId | string | 是 | AI租户ID |
-| appCode | string | 是 | AI  应用ID |
-| userId | string | 是 | 用户ID |
+| appCode | string | 是 | AI应用ID |
+| userId | string | 是 | 用户ID(友户通ID) |
 | sessionId | string | 否 | 会话ID |
-| aiUrl | string | 是 | ai接口url(域名) |
-| aiToken | string | 是 | ai token |
 | deviceId | string | 否 | 设备标识 |
+
+其中，tenantId，appCode需要在AI管理平台获取。[AI管理平台](http://robottest.ublinker.com/robot/login.html)
 
 
 **示例**
@@ -200,6 +200,8 @@ mtl.stopSpeechSyn({
 | volume | float | 音量 |  |
 | recognizeResult | string | 识别结果 |  |
 | recognizeAIResult | object | AI返回数据 |  |
+
+关于action: action返回值的状态会随语音识别的阶段而变化，当action的readySpeech有值时，可以开始录音；action的asrEnd有值时，表示录音结束，正在识别；action的recognizeResult有值时，表示识别成功并返回结果；action的volume值为实时返回的音量。开发者可根据这些状态完成语音识别功能。
 
 
 **示例**
